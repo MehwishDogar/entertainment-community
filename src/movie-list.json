@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Movie 1",
+        "rating": 4,
+        "release-date": "20 nov, 2019",
+        "thumbnail-img": "<url from google>",
+        "large-img": "<url from google>"
+    },
+    {
+        "title": "Movie 1",
+        "rating": 4,
+        "release-date": "20 nov, 2019",
+        "thumbnail-img": "<url from google>",
+        "large-img": "<url from google>"
+    }
+]
