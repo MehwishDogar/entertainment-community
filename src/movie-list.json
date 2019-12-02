@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Movie 1",
+        "rating": 4,
+        "release-date": "20 nov, 2019",
+        "thumbnail-img": "<url from google>",
+        "large-img": "<url from google>"
+    },
+    {
+        "title": "Movie 2",
+        "rating": 4.7,
+        "release-date": "09 oct, 2019",
+        "thumbnail-img": "<url from google>",
+        "large-img": "<url from google>"
+    },
+    {
+        "title": "Movie 3",
+        "rating": 4.5,
+        "release-date": "15 june, 2019",
+        "thumbnail-img": "<url from google>",
+        "large-img": "<url from google>"
+    },
+    {
+        "title": "Movie 4",
+        "rating": 4.2,
+        "release-date": "5 july, 2019",
+        "thumbnail-img": "<url from google>",
+        "large-img": "<url from google>"
+    }
+    
+]
