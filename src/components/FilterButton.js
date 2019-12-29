@@ -7,12 +7,12 @@ function FilterButton (props) {
             <input type="radio" id="free-movies" name="free-paid" value="free" onClick={props.filterMovies}/>
             <label for="paid-movies">Paid Movies</label>
             <input type="radio" id="paid-movies" name="free-paid" value="paid" onClick={props.filterMovies}/>
-            <button onClick={props.resetMovies}>Reset</button>
+            <button id="reset-movies" onClick={props.resetMovies}>Reset</button>
         </div>
-    )
+    );
 }
 
 
 export {
     FilterButton
-}
+};

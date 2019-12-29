@@ -24,4 +24,4 @@ function MovieBox(props) {
 
 export {
     MovieBox
-}
+};

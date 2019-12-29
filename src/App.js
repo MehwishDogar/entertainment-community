@@ -1,8 +1,7 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import {MovieList} from './components/MovieList';
-import {MediaPlayer} from './components/MediaPlayer';
-
+import { MovieList } from './components/MovieList';
+import { MediaPlayer } from './components/MediaPlayer';
 class App extends Component {
     constructor (props) {
        super(props)
@@ -13,7 +12,6 @@ class App extends Component {
        this.handleClick = this.handleClick.bind(this);
     }
 
-
     handleClick(e, movie) {
       this.setState( {
         movieUrl: movie['large-img']
@@ -23,20 +21,11 @@ class App extends Component {
     render () {
       return (
         <div className='app'>
-         <MediaPlayer movieUrl={this.state.movieUrl} />
+         <MediaPlayer movieUrl={this.state.movieUrl}/>
          <MovieList handleClick={this.handleClick}/>
         </div>
       );
     }
 }
-
-// function App() {
-//   return (
-//     <div>
-//     <MediaPlayer />
-//     <MovieList />
-//     </div>
-//   );
-// }
 
 export default App;

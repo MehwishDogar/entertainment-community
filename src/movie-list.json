@@ -1,42 +1,42 @@
 [
     {
-        "title": "Movie 1",
+        "title": "Titanic",
         "rating": 4.9,
         "release-date": "20,nov,2019",
         "price": 0,
-        "thumbnail-img": "https://image.shutterstock.com/z/stock-vector-thumbnail-for-opening-video-tutorials-study-and-learning-background-video-conference-and-webinar-1301017987.jpg",
-        "large-img": "https://image.shutterstock.com/z/stock-vector-thumbnail-for-opening-video-tutorials-study-and-learning-background-video-conference-and-webinar-1301017987.jpg"
+        "thumbnail-img": "https://cdn.wallpapersafari.com/68/77/lybWPz.jpg",
+        "large-img": "https://www.youtube.com/watch?v=kRC4e3pEIpI.mp4"
     },
     {
         "title": "Avengers",
         "rating": 4.7,
         "release-date": "09,oct,2019",
         "price": 1.5,
-        "thumbnail-img": "https://image.shutterstock.com/z/stock-vector-thumbnail-for-opening-video-tutorials-study-and-learning-background-video-conference-and-webinar-1301017987.jpg",
+        "thumbnail-img": "https://images-na.ssl-images-amazon.com/images/I/81rypQUyjFL._SL1363_.jpg",
         "large-img": "https://images-na.ssl-images-amazon.com/images/I/81rypQUyjFL._SL1363_.jpg"
     },
     {
-        "title": "Movie 3",
+        "title": "Transformers",
         "rating": 4.5,
         "release-date": "15,aug,2019",
         "price": 2,
-        "thumbnail-img": "https://image.shutterstock.com/z/stock-vector-thumbnail-for-opening-video-tutorials-study-and-learning-background-video-conference-and-webinar-1301017987.jpg",
-        "large-img": "https://image.shutterstock.com/z/stock-vector-thumbnail-for-opening-video-tutorials-study-and-learning-background-video-conference-and-webinar-1301017987.jpg"
+        "thumbnail-img": "http://img.yifymoviez.com/films/images/2017/transformers-the-last-knight-2017-2024-thumbnail.jpg",
+        "large-img": "http://img.yifymoviez.com/films/images/2017/transformers-the-last-knight-2017-2024-thumbnail.jpg"
     },
     {
-        "title": "Movie 4",
+        "title": "Terminator Dark Fate",
         "rating": 4.2,
         "release-date": "05,jul,2019",
         "price": -5,
-        "thumbnail-img": "https://image.shutterstock.com/z/stock-vector-thumbnail-for-opening-video-tutorials-study-and-learning-background-video-conference-and-webinar-1301017987.jpg",
-        "large-img": "https://image.shutterstock.com/z/stock-vector-thumbnail-for-opening-video-tutorials-study-and-learning-background-video-conference-and-webinar-1301017987.jpg"
+        "thumbnail-img": "https://1.bp.blogspot.com/-_xptKfqDRQY/XWk7w4RsLMI/AAAAAAAAOkI/zWffo7BIQ0IuNrZyMAzvAFYpfzp_lRCzACLcBGAs/s1600/terminator%2Bdark%2Bfate.jpg",
+        "large-img": "https://1.bp.blogspot.com/-_xptKfqDRQY/XWk7w4RsLMI/AAAAAAAAOkI/zWffo7BIQ0IuNrZyMAzvAFYpfzp_lRCzACLcBGAs/s1600/terminator%2Bdark%2Bfate.jpg"
     },
     {
-        "title": "Movie 5",
+        "title": "Avatar",
         "rating": 4,
         "release-date": "08,may,2019",
         "price": 4,
-        "thumbnail-img": "https://image.shutterstock.com/z/stock-vector-thumbnail-for-opening-video-tutorials-study-and-learning-background-video-conference-and-webinar-1301017987.jpg",
-        "large-img": "https://image.shutterstock.com/z/stock-vector-thumbnail-for-opening-video-tutorials-study-and-learning-background-video-conference-and-webinar-1301017987.jpg"
+        "thumbnail-img": "https://img.youtube.com/vi/Sq4bFsTVWhY/0.jpg",
+        "large-img": "https://img.youtube.com/vi/Sq4bFsTVWhY/0.jpg"
     }
-]
+];

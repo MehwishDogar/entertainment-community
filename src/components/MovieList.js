@@ -1,8 +1,8 @@
-import React,{Component} from "react";
+import React,{ Component } from "react";
 import movies from "../movie-list.json";
-import {MovieBox} from "./MovieBox";
+import { MovieBox } from "./MovieBox";
 import { MediaPlayer } from "./MediaPlayer.js";
-import {FilterButton} from "./FilterButton.js";
+import { FilterButton } from "./FilterButton.js";
 import { statements } from "@babel/template";
 
 class MovieList extends Component {
@@ -39,16 +39,15 @@ class MovieList extends Component {
     render() {
         let movies = this.state.filteredMovies || this.state.movies;
         return(
-            //TODO: need to iterate over movies array to render movie box component
             <div className="movie-list">
                 <FilterButton
-                        filterMovies={this.filterMovies}
-                        resetMovies={this.resetMovies}
+                    filterMovies={this.filterMovies}
+                    resetMovies={this.resetMovies}
                 />
             {
-               movies.map(function(movie){
+                movies.map(function(movie){
                     return <MovieBox 
-                                  movie = {movie}
+                                  movie={movie}
                                   onClick={this.props.handleClick}
                     />
                 }.bind(this))
@@ -60,4 +59,4 @@ class MovieList extends Component {
 
 export {
     MovieList
-}
+};
