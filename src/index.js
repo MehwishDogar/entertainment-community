@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import movies from './movie-list.json';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
