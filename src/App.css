@@ -1,11 +1,33 @@
+
 .app {
   text-align: center;
   display: flex;
-  background-color: lightcyan;
+  height: 90%;
 }
 
+.app-header {
+  height: 10%;
+  background-color: #1a1b1b;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.heading {
+  font-size: xx-large;
+  font-style: oblique;
+  font-family: cursive;
+  color: rgb(32, 127, 204);
+  display: flex;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.app-header img {
+  max-height: 100px;
+} 
+
 .media-player {
-  max-width: 70%;
+  width: 70%;
 }
 
 .media-player img {
@@ -15,7 +37,6 @@
 .movie-list {
   float: right;
   width: 30%;
-  background-color: lightcyan;
 }
 
 .movie-box {
@@ -43,8 +64,10 @@
 
 .filter-button {
   display: flex;
+  margin: 5px
 }
 
 #reset-movies {
-  margin: 10px;
+  margin: 0px;
+  margin-left: 5px;
 }
