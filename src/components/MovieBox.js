@@ -1,6 +1,4 @@
-// TODO functional component of MovieBox which is a control component
 import React from "react";
-
 
 function MovieBox(props) {
     const {movie, onClick} = props;

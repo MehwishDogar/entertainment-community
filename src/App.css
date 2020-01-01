@@ -2,11 +2,9 @@
 .app {
   text-align: center;
   display: flex;
-  height: 90%;
 }
 
 .app-header {
-  height: 10%;
   background-color: #1a1b1b;
   display: flex;
   margin-bottom: 5px;
@@ -15,11 +13,10 @@
 .heading {
   font-size: xx-large;
   font-style: oblique;
-  font-family: cursive;
+  font: cursive;
   color: rgb(32, 127, 204);
   display: flex;
-  margin: 20px;
-  margin-top: 40px;
+  margin: 40px 20px 20px 20px;
 }
 
 .app-header img {
@@ -68,6 +65,5 @@
 }
 
 #reset-movies {
-  margin: 0px;
-  margin-left: 5px;
+  margin: 0px 0px 0px 5px;
 }
