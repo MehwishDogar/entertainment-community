@@ -30,6 +30,7 @@ class App extends Component {
             <MediaPlayer movieUrl={this.state.movieUrl}/>
             <MovieList handleClick={this.handleClick}/>
         </div>
+        <div className="app-footer"></div>
         </div>
       );
     }
