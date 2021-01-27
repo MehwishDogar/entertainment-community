@@ -1,12 +1,15 @@
-import React,{ Component } from "react";
-import { MovieBox } from "./MovieBox";
-import movies from "../movie-list.json";
+import React from "react";
 
 function MediaPlayer(props) {
     return (
         <div className="media-player">
-           <img src={props.movieUrl} alt=""/>
-        </div>
+            <iframe width="910" height="560"
+            src= {props.movieUrl}
+            frameBorder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowFullScreen>
+            </iframe>
+         </div>
     );
 } 
 
